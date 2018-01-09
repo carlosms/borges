@@ -166,10 +166,10 @@ they will just retry until it does.
 
 ## Download the images
 
-Download the latest borges image
+Download the latest borges image. Replace `[version]` with the latest [repository tag](https://quay.io/repository/srcd/borges?tag=latest&tab=tags). 
 
 ```
-docker pull quay.io/srcd/borges
+docker pull quay.io/srcd/borges:[version]
 ```
 
 And then the PostgreSQL and RabbitMQ images (you can skip this step if you already have that setup for [rovers](https://github.com/src-d/rovers)).
